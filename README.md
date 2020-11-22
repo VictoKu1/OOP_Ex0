@@ -1,3 +1,5 @@
+#OOP Course Ex0 Solution . 
+
 @author Victor Kushnir.
 
 Assignment Ex0 is representing an undirected graph data structure.
@@ -8,14 +10,16 @@ By the terms of the assigment - method .values() of HashMap class should be cons
 The Graph_Algo class is mainly based on the BFS algorithm, mainly used to find the shortest distance between two nodes and a HashMap to work as an isomorphism function from one group of nodes to another and from one group of edges to another - this type of HashMap implementation is mainly used in .copy() method, for more information please read the comments for the function listed in this document in the relevant section or in the code itself. 
 
 
+##NodeData:
+
 Class NodeData is implementing node_data_p interface which is extending the original noda_data interface with one method that should be used in the implementation of the class. 
 This class represents a single node in a graph with its characteristics. 
 
 
-NodeData:
+
 
     NodeData class contained parameters :
-
+        
           * counter - static parameter of type int, counting every creation of the object of type NodeData, mainly used to give every node its special unique key at its creation.
           * key -  integer, which represents each node unique personal key.
           * info - string, which represents remark (metadata) associated with this node.
@@ -47,11 +51,10 @@ NodeData:
         public HashMap<Integer, node_data> getHashMap() ;     - ( Returns HashMap which contains links to connected nodes . This method is implementing node_data_p inteface ) .
 
 
+##Graph_DS:
 
 Class Graph_DS is implementing graph interface 
 This class represents an undirected graph that contains nodes of a NodeData type.  
-
-Graph_DS:
 
     Graph_DS class contained parameters :
 
@@ -87,11 +90,10 @@ Graph_DS:
        public int getMC();   -( Returns the Mode Count - for testing changes in the graph. Any change in the inner state of the graph should cause an increment in the ModeCount Time complexity: O(1) ).
 
 
+##Graph_Algo:
 
 Class Graph_Algo is implementing the graph_algorithms interface.
 This class represents the "regular" Graph Theory algorithms, which can be implemented on a Graph_DS object type which contains NodeData type of objects. 
-
-Graph_Algo:
     
     Graph_Algo class contained parameters :
       
