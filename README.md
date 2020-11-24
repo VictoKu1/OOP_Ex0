@@ -90,6 +90,7 @@ This class represents an undirected graph that contains nodes of a NodeData type
        public int getMC();   -( Returns the Mode Count - for testing changes in the graph. Any change in the inner state of the graph should cause an increment in the ModeCount Time complexity: O(1) ).
 
 
+
 ##Graph_Algo:
 
 Class Graph_Algo is implementing the graph_algorithms interface.
