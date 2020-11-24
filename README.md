@@ -91,7 +91,7 @@ This class represents an undirected graph that contains nodes of a NodeData type
 
 
 
-##Graph_Algo:
+## Graph_Algo:
 
 Class Graph_Algo is implementing the graph_algorithms interface.
 This class represents the "regular" Graph Theory algorithms, which can be implemented on a Graph_DS object type which contains NodeData type of objects. 
