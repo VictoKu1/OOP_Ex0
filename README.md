@@ -1,4 +1,4 @@
-# OOP Course Ex0 Solution . 
+# OOP Course Ex0 Solution: Unweighted Undirected Graph DS Implementation With Algorithms And Tests .
 
 @author Victor Kushnir.
 
