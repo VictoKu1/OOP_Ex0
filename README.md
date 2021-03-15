@@ -128,3 +128,7 @@ This class represents the "regular" Graph Theory algorithms, which can be implem
     
       public node_data closestAdjacent(Collection<node_data> adjacents, int prevDist) ;      - ( Helping method which finds adjacent node which is leading using the shortest way to the destination node . Knowing the distanse of the node that gave this adjacents collection we can know for sure that the tag parameter of the node we are searching for is for sure lower in 1 that its "parent node" .).
         
+
+
+
+
